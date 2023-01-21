@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Superheroes</string>
+    <!-- hero names -->
+    <string name = "nightshade">Night shade</string>
+    <string name="crimsoncoment">The Crimson Comet</string>
+    <string name = "bluestreak">The Blue Streak</string>
+    <string name="greenguardian">The Green Guardian</string>
+    <string name="silversentinel">The Silver Sentinel</string>
+    <string name="goldenavenger">Thing</string>
+
+    <!-- superhero descriptions -->
+    <string name="nightshadedesc">A shadowy figure who lurks in the night,
+        preying on criminals and protecting the innocent</string>
+    <string name="crimsoncomentDesc">A super-fast hero who uses her speed
+        to take down enemies and deliver justice</string>
+    <string name="bluestreakdesc"> A hero with the power of super-speed,
+        who uses her abilities to help others and fight crime.. </string>
+    <string name= "greenguardiandesc">A hero with super-strength and invulnerability,
+        who uses her powers to protect the weak and fight evil.</string>
+    <string name="silversentineldesc">A hero with the power of flight and super-strength,
+        who uses her abilities to defend the innocent and fight crime.</string>
+    <string name="goldenavengerdesc">A hero with super-strength and the power of flight,
+        who uses her abilities to protect the innocent and fight evil.</string>
+
+</resources>
