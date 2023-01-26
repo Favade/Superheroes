@@ -4,8 +4,6 @@ import android.content.ClipData.Item
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-
-
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
@@ -60,10 +58,10 @@ fun HeroListItem(
 ) {
     Card(
         elevation = 2.dp,
-        modifier = Modifier.clip(MaterialTheme.shapes.medium)
+        modifier = Modifier.clip(MaterialTheme.shapes.medium).padding(10.dp)
     ) {
         Row(
-            modifier = modifier.fillMaxWidth(),
+            modifier = modifier.fillMaxWidth().sizeIn(minHeight = 72.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Center
         ) {
